@@ -1,0 +1,82 @@
+Playwright error scraping http://saimanigeria.com.ng: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://saimanigeria.com.ng/
+Call log:
+  - navigating to "http://saimanigeria.com.ng/", waiting until "load"
+
+Playwright error scraping http://easerlifestyle.com: Page.goto: net::ERR_CONNECTION_RESET at http://easerlifestyle.com/
+Call log:
+  - navigating to "http://easerlifestyle.com/", waiting until "load"
+
+Playwright error scraping https://concessionarylogistics.com: Page.goto: net::ERR_CONNECTION_RESET at https://concessionarylogistics.com/
+Call log:
+  - navigating to "https://concessionarylogistics.com/", waiting until "load"
+
+Playwright error scraping https://dinezgroup.com: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+Playwright error scraping http://www.ktgshipping.com: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+Playwright error scraping http://www.aloglobalserviceslogisticsco.com: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.aloglobalserviceslogisticsco.com/
+Call log:
+  - navigating to "http://www.aloglobalserviceslogisticsco.com/", waiting until "load"
+
+Playwright error scraping http://www.beurologistics.com: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.beurologistics.com/
+Call log:
+  - navigating to "http://www.beurologistics.com/", waiting until "load"
+
+Playwright error scraping http://www.tfl-ng.com: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.tfl-ng.com/
+Call log:
+  - navigating to "http://www.tfl-ng.com/", waiting until "load"
+
+Playwright error scraping https://aio.ng: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://aio.ng/
+Call log:
+  - navigating to "https://aio.ng/", waiting until "load"
+
+Playwright error scraping http://posh9jaexport.com: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://posh9jaexport.com/
+Call log:
+  - navigating to "http://posh9jaexport.com/", waiting until "load"
+
+Playwright error scraping https://bgl.com.ng: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bgl.com.ng/
+Call log:
+  - navigating to "https://bgl.com.ng/", waiting until "load"
+
+Playwright error scraping https://www.kelservicesltd.com/kel-logistics-services: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kelservicesltd.com/kel-logistics-services
+Call log:
+  - navigating to "https://www.kelservicesltd.com/kel-logistics-services", waiting until "load"
+
+Playwright error scraping https://priorityparcelng.com: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://priorityparcelng.com/
+Call log:
+  - navigating to "https://priorityparcelng.com/", waiting until "load"
+
+Playwright error scraping https://vdsgloballogistics.com: Page.goto: net::ERR_CONNECTION_REFUSED at https://vdsgloballogistics.com/
+Call log:
+  - navigating to "https://vdsgloballogistics.com/", waiting until "load"
+
+Playwright error scraping https://broadwaynigeria.com: Page.goto: net::ERR_CONNECTION_REFUSED at https://broadwaynigeria.com/
+Call log:
+  - navigating to "https://broadwaynigeria.com/", waiting until "load"
+
+Playwright error scraping http://www.limajlogistics.com: Page.goto: net::ERR_CONNECTION_REFUSED at http://www.limajlogistics.com/
+Call log:
+  - navigating to "http://www.limajlogistics.com/", waiting until "load"
+
+Playwright error scraping http://www.puissantlogistics.com: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "http://www.puissantlogistics.com/", waiting until "load"
+
+Playwright error scraping https://www.greaterwashingtonng.com: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.greaterwashingtonng.com/", waiting until "load"
+
+Playwright error scraping http://www.continentallogisticsng.com: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "http://www.continentallogisticsng.com/", waiting until "load"
+
+Playwright error scraping http://www.greaterwashingtonng.com: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "http://www.greaterwashingtonng.com/", waiting until "load"
+
+Playwright error scraping http://www.dreamworksgloballogistics.com: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "http://www.dreamworksgloballogistics.com/", waiting until "load"
+
+Playwright error scraping https://www.absolutelya2zlogistics.com: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.absolutelya2zlogistics.com/", waiting until "load"
+
