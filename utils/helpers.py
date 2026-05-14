@@ -3,6 +3,7 @@ def merge_values(old, new):
         if isinstance(val, str) and val.strip():
             return set(val.split(", "))
         return set()
+
     old_set = to_set(old)
     new_set = to_set(new)
     merged = sorted(old_set.union(new_set))

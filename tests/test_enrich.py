@@ -1,14 +1,16 @@
-import pytest
 import aiohttp
-import asyncio
+import pytest
 from bs4 import BeautifulSoup
+
 from processors import enrich
+
 
 @pytest.mark.asyncio
 async def test_fetch_returns_none_on_invalid_url():
     async with aiohttp.ClientSession() as session:
         result = await enrich.fetch(session, "http://invalid.localhost")
         assert result is None
+
 
 @pytest.mark.asyncio
 async def test_fetch_valid_url_returns_content():
@@ -17,11 +19,13 @@ async def test_fetch_valid_url_returns_content():
         assert result is not None
         assert "Example Domain" in result
 
+
 @pytest.mark.asyncio
 async def test_fetch_invalid_url_returns_none():
     async with aiohttp.ClientSession() as session:
         result = await enrich.fetch(session, "http://nonexistent.localhost")
         assert result is None
+
 
 @pytest.mark.asyncio
 async def test_extract_emails_from_html():
@@ -40,6 +44,7 @@ async def test_extract_no_emails_returns_empty_list():
     text = soup.get_text(" ", strip=True)
     emails = enrich.extract_emails(soup, text)
     assert emails == set()
+
 
 @pytest.mark.asyncio
 async def test_handle_timeout(monkeypatch):

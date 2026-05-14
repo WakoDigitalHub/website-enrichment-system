@@ -1,9 +1,12 @@
 import os
+
 import pandas as pd
+
 from config.settings import CONFIG
+from exporters.excel_exporter import save_to_excel
 from processors.enrich import run_combined
 from utils.helpers import merge_values
-from exporters.excel_exporter import save_to_excel
+
 
 def main():
     input_file = CONFIG["input_file"]
@@ -39,6 +42,7 @@ def main():
 
     save_to_excel(df, CONFIG["output_file"])
     print(f"Enrichment complete. Total websites enriched: {enriched_count}")
+
 
 if __name__ == "__main__":
     main()
