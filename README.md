@@ -1,4 +1,5 @@
 # Website Enrichment System
+![Python CI](https://github.com/WakoDigitalHub/website-enrichment-system/actions/workflows/python-ci.yml/badge.svg)
 
 A Python-based asynchronous scraper that enriches website data by extracting emails, social media links, and WhatsApp contacts from company websites. Built with `aiohttp`, `BeautifulSoup`, and `Playwright` for robust scraping.
 
