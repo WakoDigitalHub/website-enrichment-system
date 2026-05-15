@@ -1,6 +1,4 @@
 import asyncio
-
-# Regex patterns
 import re
 
 import aiohttp
